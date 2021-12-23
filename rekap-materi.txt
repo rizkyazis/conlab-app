@@ -1,0 +1,266 @@
+# Tentang Course
+Pada course ini, kita akan mempelajari HTML dan CSS dasar untuk pengembangan website. **HTML** adalah singkatan dari **Hypertext Markup Language** yang merupakan bahasa markup standar  untuk  membuat  halaman  web.  **HTML**  dikembangkan pertama kali oleh Tim Berners-Leem  Robert Cailliau* dan beberapa orang lain pada tahun 1989.
+
+Lalu untuk mempercantik tampilan website kita, bisa menggunakan **CSS**. **CSS** merupakan singkatan dari **Cascading Style Sheet** yang bertujuan
+untuk menghias dan mengatur gaya tampilan atau layout halaman web agar lebih menarik. **CSS** menentukan bagaimana elemen **HTML** ditampilkan, seperti menentukan posisi, mengubah warna teks dan background, dan lain sebagainya.
+
+Selanjutnya, kita akan mempelajari bagaimana cara pembuatan website menggunakan **HTML** dan **CSS** dasar menggunakan *code editor online* yang sudah kami sediakan.
+
+Selamat mengerjakan :)
+
+# Apa itu HTML?
+
+**HTML** adalah singkatan dari **Hypertext Markup Language** yang merupakan bahasa markup standar  untuk  membuat  halaman  web.  **HTML**  dikembangkan pertama kali oleh Tim Berners-Leem  Robert Cailliau* dan beberapa orang lain pada tahun 1989.
+
+## HTML Elements
+Setiap elemen pada HTML akan diawali oleh tag pembuka `<elemen>` dan diakhiri oleh tag penutup `</elemen>`, kecuali pada elemen kosong seperti *tag*`<br>`, `<img>` dan `<hr>`. Perlu diingat, di antara tag pembuka dan penutup terdapat sebuah konten.
+
+### Contoh penulisan elemen HTML:
+```html
+<html>
+    <head>
+        <title>Title Website</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <h1>My Header 1</h1>
+        <h2>My Header 2</h2>
+        <h3>My Header 3</h3>
+        <h4>My Header 4</h4>
+        <h5>My Header 5</h5>
+        <h6>My Header 6</h6>
+        
+        <!-- Paragraph -->
+        <p>My First Paragraph</p>
+        
+        <!-- Text Styles -->
+        <i>Ini adalah kalimat italic</i>
+        <b>Ini adalah kalimat bold</b>
+        <u>Ini adalah kalimat underline</u>
+        
+        <!-- Anchor -->
+        <a href="facebook.com">Hyperlink ke Facebook</a>
+    </body>
+</html>
+```
+
+
+| Element | Penjelasan |
+| --- | --- |
+| `<!DOCTYPE html>` | Deklarasi mendefinisikan bahwa versi dari HTML yang digunakan adalah HTML5. |
+| `<html>` | Elemen root dari halaman HTML |
+| `<head>` | Elemen yang berisikan informasi meta tentang halaman HTML. |
+| `<title>` | Elemen untuk menentukan judul pada halaman HTML (yang ditampilkan di tab halaman). |
+| `<body>` | Elemen yang merupakan wadah untuk semua konten yang terlihat. |
+| `<h1>` - `<h6>` | Elemen ini mendefinisikan heading dengan ukuran besar. |
+| `<p>` | Elemen ini mendefinisikan sebuah paragraf. |
+| `<a>` | Digunakan untuk mendefinisikan *hyperlink*. |
+| `<u>` | Digunakan untuk menampilkan teks dalam format underline. |
+| `<i>` atau `<em>` | Digunakan untuk menampilkan teks dalam format *italic*. |
+| `<b>` atau `<strong>` | Digunakan untuk menampilkan teks dalam format **bold**.
+
+## HTML Headings
+**HTML Headings** adalah judul atau subtitle yang ingin Anda tampilkan di halaman web. **HTML Headings** ditentukan dengan tag `h1>` sampai `<h6>`. `<h1>` mendefinisikan *headings* yang paling penting, sedangkan `<h6>` mendefinisikan *headings* yang paling tidak penting.
+
+### Contoh
+```html
+<!DOCTYPE html>
+<html>
+    <h1>My Heading 1</h1>
+    <h2>My Heading 2</h2>
+    <h3>My Heading 3</h3>
+    <h4>My Heading 4</h4>
+    <h5>My Heading 5</h5>
+    <h6>My Heading 6</h6>
+</html>
+```
+
+### Headings itu penting
+Mesin pencari menggunakan judul untuk mengindeks struktur dan konten halaman web Anda. Pengguna sering kali membaca sepintas halaman berdasarkan *heading*-nya. Penting untuk menggunakan *heading* untuk memperlihatkan struktur dokumen. Judul `<h1>` harus digunakan untuk judul utama, diikuti oleh judul `<h2>`, kemudian `<h3>` yang kurang penting, dan seterusnya.
+
+#### Latihan
+1. Membuat Heading sederhana menggunakan `<h1></h1>`.
+2. Masukkan nama kalian ke dalam Heading tersebut.
+3. Submit hasil koding kalian.
+
+## HTML Text Paragraph
+
+Elemen HTML `<p>` mendefinisikan sebuah paragraf. Paragraf selalu dimulai pada baris baru, dan browser secara otomatis menambahkan beberapa spasi (margin) sebelum dan sesudah paragraf.
+
+### Contoh
+
+``` html
+<!doctype html>
+<html>
+    <p>
+        Paragraf ini adalah contoh dari penggunaan tag paragraf pada html
+    </p>
+</html>
+```
+
+## HTML Text Formatting
+
+HTML mengandung beberapa elemen untuk mendefinisikan teks dengan arti khusus.
+
+### Contoh
+
+``` html
+<!DOCTYPE html>
+<html>
+    <body>
+        <p><b>Text ini adalah bold</b></p>
+        <p><i>Text ini adalah italic</i></p>
+        <p><u>Text ini adalah underline</u></p>
+    </body>
+</html>
+```
+
+#### HTML `<b>` dan `<strong>` Elemen
+
+Elemen HTML `<b>` mendefinisikan teks tebal, tanpa kepentingan tambahan apapun. Elemen HTML `<strong>` mendefinisikan teks dengan sangat penting. Konten di dalamnya biasanya ditampilkan dengan huruf tebal.
+
+#### HTML `<i>` dan ` <em>` Elemen
+
+Elemen HTML `<i>` mendefinisikan bagian teks dengan istilah asing atau alternatif lainnya. Konten di dalamnya biasanya ditampilkan dalam huruf miring. Elemen HTML `<em>` mendefinisikan teks yang ditekankan. Konten di dalamnya biasanya ditampilkan dalam huruf miring.
+
+#### HTML `<u>` Elemen 
+
+Elemen HTML `<u>` mendefinisikan teks yang digaris bawahi. Konten di dalamnya biasanya ditampilkan dengan garis bawah,
+
+### HTML Links - Hyperlinks
+
+Tautan HTML adalah hyperlink. Anda dapat mengklik link dan melompat ke dokumen lain. Saat Anda menggerakkan mouse ke atas tautan, panah mouse akan berubah menjadi tangan kecil.
+    
+Tag HTML `<a>` mendefinisikan hyperlink. Ini memiliki sintaks berikut:
+```
+<a href="url">link text</a>
+```
+Atribut terpenting dari elemen `<a>` adalah atribut href, yang menunjukkan tujuan tautan. Teks link adalah bagian yang akan terlihat oleh pembaca. Mengklik teks tautan, akan mengirim pembaca ke alamat URL yang ditentukan.
+```
+<a href="https://www.google.com/">Hyperlink menuju ke google.com</a>
+```
+
+Secara default, tautan akan muncul seperti berikut di semua browser:
+1. Tautan yang belum dikunjungi digarisbawahi dan berwarna biru
+2. Tautan yang dikunjungi digarisbawahi dan berwarna ungu
+3. Tautan aktif digarisbawahi dan berwarna merah
+
+#### Latihan
+
+1. Membuat sebuah paragraf yang menceritakan keahlian Anda.
+2. Membuat kalimat menggunakan italic, bold, dan underline.
+3. Membuat sebuah hyperlink yang menuju ke sosial media favorit Anda,
+
+
+## HTML Images
+Tag HTML `<img>` digunakan untuk menyematkan gambar di halaman web. Gambar tidak secara teknis dimasukkan ke dalam halaman web; gambar ditautkan ke halaman web. Tag `<img>` membuat ruang penahanan untuk gambar yang direferensikan. Tag `<img>` kosong, hanya berisi atribut, dan tidak memiliki tag penutup. Tag `<img>` memiliki dua atribut yang diperlukan:
+* src - Menentukan jalur ke gambar
+* alt - Menentukan teks alternatif untuk gambar
+
+```
+<img src="url" alt="alternatetext"> 
+```
+
+### Attribute src
+Atribut src yang diperlukan menentukan jalur (URL) ke gambar.
+```html
+<img src="img_chania.jpg" alt="Flowers in Chania">
+```
+
+### Attribute alt
+Atribut alt yang diperlukan menyediakan teks alternatif untuk gambar, jika pengguna karena alasan tertentu tidak dapat melihatnya (karena koneksi yang lambat, kesalahan pada atribut src, atau jika pengguna menggunakan pembaca layar).
+
+Nilai atribut alt harus mendeskripsikan gambar:
+```html
+<img src="img_chania.jpg" alt="Flowers in Chania">
+```
+Jika browser tidak dapat menemukan gambar itu, akan menampilkan nilai atribut alt.
+
+#### Latihan
+1. Memasukkan sebuah gambar dari link `https://via.placeholder.com/728x90.png` ke dalam `<img>`
+2. Menambahkan sebuah atribut `alt` kedalam `<img>`
+
+## HTML Lists
+
+HTML sudah menyediakan elemen untuk membuat list. Ada tiga macam jenis list yang bisa dibuat di HTML:
+
+1. Ordered List adalah list yang terurut;
+2. Unordered List adalah list yang tak terurut;
+
+### Ordered List di HTML
+
+Ordered list dibuat dengan tag `<ol>`. Lalu di dalamnya diisi dengan item-item yang akan dimasukkan ke dalam list. Item dibuat dengan tag `<li>` (list item).
+
+![ordered list](https://www.petanikode.com/img/html/list/ol.png)
+
+#### Contoh
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat Ordered List</title>
+</head>
+
+<body>
+    <h1>Buah Favoritku:</h1>
+    <ol>
+        <li>Jeruk</li>
+        <li>Durian</li>
+        <li>Pisang</li>
+        <li>Pepaya</li>
+        <li>Mangga</li>
+    </ol>
+</body>
+</html>
+```
+![hasil ordered list](https://www.petanikode.com/img/html/list/contoh-ol.png)
+
+List diatas diurutkan berdasarkan angka dari 1, 2, 3, sampai 5.
+
+### Unordered List di HTML
+Unordered list adalah list yang tak terurut yang menggunakan simbol-simbol pada item-nya. Unordered list dibuat dengan tag `<ul>` dan untuk item-nya dibuat juga dengan tag `<li>`.
+![unordered list](https://www.petanikode.com/img/html/list/ul.png)
+
+#### Contoh
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat Unordered List</title>
+</head>
+
+<body>
+    <h1>Bahasa Pemrograman untuk dipelajari:</h1>
+    <ul>
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Kotlin</li>
+    </ul>
+</body>
+</html>
+```
+![hasil unordered list](https://www.petanikode.com/img/html/list/contoh-ul.png)
+
+Secara default simbol yang digunakan oleh unordered list adalah lingkaran kecil (disc).
+
+#### Latihan
+1. Membuat list menggunakan salah satu dari ordered list atau unordered list dengan isi hobi Anda.
+
+## Membuat Profile Sederhana
+Setelah banyak materi HTML dan CSS yang kita pelajari, kita mengetahui beberapa elemen-elemen HTML dan properti-properti dari CSS. Anda diharapkan mengerti dengan materi-materi yang diberikan dan mampu membuat halaman website profile sederhana.
+
+### Latihan
+1. Membuat profile sederhana dengan ketentuan:
+    1. Nama lengkap menggunakan elemen *headings 1*
+    2. Asal sekolah menggunakan *headings 2*
+    3. Kelas menggunakan *headings 3*
+    4. Memasukan foto makanan kesukaan (sumber google, dan lainnya)
+    5. Membuat kesan pesan pelatihan website sederhana menggunakan elemen **paragraf, bold, italic, dan underline**
+    6. Menggunakan elemen '`<a>` untuk memasukkan sosial media favorit kalian
+    7. Memasukkan hobi kalian menggunakan `<ol>` atau `<ul>`
+    8. Menggunakan CSS untuk mengatur **height, width, color, background, dan font-size**
+
+
+#### Selamat mengerjakan :)
